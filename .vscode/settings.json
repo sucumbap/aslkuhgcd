@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "pglib.h": "c",
+        "list.h": "c",
+        "graphics.h": "c"
+    }
+}

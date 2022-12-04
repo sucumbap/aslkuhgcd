@@ -1,0 +1,8 @@
+#!/bin/bash
+cp libpg.so /usr/local/lib
+cp include/* /usr/local/include/pg
+chmod 666 /usr/local/include/pg/*.h
+
+if [ $? -eq 0 ] ; then 
+	echo "pg lib installed!"
+fi
